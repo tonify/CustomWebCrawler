@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/websphinx.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/LuceneSphynxCollab/lib/websphinx-doc.zip!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/lucene-core-3.5.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/LuceneSphynxCollab/lib/lucene-core-3.5.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="lib/jsoup-1.6.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
